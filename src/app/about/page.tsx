@@ -18,6 +18,13 @@ export default function AboutPage() {
 
       {/* Bio Section */}
       <div className="mb-16 grid gap-8 md:grid-cols-3">
+        <div className="flex items-start justify-center md:order-last">
+          <img
+            src="/images/selfie.png"
+            alt="Yifeng (Troy) Bu"
+            className="h-64 w-64 rounded-lg object-cover"
+          />
+        </div>
         <div className="md:col-span-2 space-y-4">
           <p className="leading-relaxed text-black">
             I&apos;m an Electrical Engineering Ph.D. specializing in{' '}
@@ -66,13 +73,6 @@ export default function AboutPage() {
               ))}
             </div>
           </div>
-        </div>
-        <div className="flex items-start justify-center">
-          <img
-            src="/images/selfie.png"
-            alt="Yifeng (Troy) Bu"
-            className="h-64 w-64 rounded-lg object-cover"
-          />
         </div>
       </div>
 
