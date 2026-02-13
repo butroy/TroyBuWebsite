@@ -32,7 +32,7 @@ export default function Gallery() {
           </button>
 
           {/* Image */}
-          <div className="flex h-[500px] flex-1 items-center justify-center overflow-hidden rounded-lg">
+          <div className="flex h-[300px] sm:h-[400px] md:h-[500px] flex-1 items-center justify-center overflow-hidden rounded-lg">
             <img
               src={image.src}
               alt={image.alt}
